@@ -159,6 +159,74 @@ WhatsApp
         font-size: 14px;
     }
   </style>
+  
+  <style>
+    body {
+        background-color: #121212;
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    /* Ye container saari gadiyon ko side-by-side set karega */
+    .bikes-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+    .container {
+        width: 45%; /* Ek row me do card fit honge */
+        min-width: 280px;
+        background: #1e1e1e;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        box-sizing: border-box;
+    }
+    .container img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    h1 {
+        color: #ffcc00;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .price {
+        font-size: 18px;
+        color: #00ff66;
+        font-weight: bold;
+        margin: 8px 0;
+    }
+    .details p {
+        font-size: 14px;
+        color: #ccc;
+        margin: 4px 0;
+        line-height: 1.4;
+    }
+    .btn {
+        display: block;
+        text-align: center;
+        background: #25d366;
+        color: white;
+        padding: 10px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .back-btn {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: #ffcc00;
+        text-decoration: none;
+        font-size: 14px;
+    }
+  </style>
   <div class="bikes-grid">
     
     <!-- Pehli Gadi ka Card -->
@@ -177,11 +245,11 @@ WhatsApp
     <!-- Dusri Gadi ka Card -->
     <div class="container">
         <a href="index.html" class="back-btn">← Back</a>
-        <img src="bike10.jpg" alt="Bike">
-        <h1>Honda Activa</h1>
+        <img src="bike14.jpg" alt="Bike">
+        <h1>Honda pleasure</h1>
         <div class="price">₹ 52,000</div>
         <div class="details">
-            <p>✔ Model: 2022</p>
+            <p>✔ Model: 2007</p>
             <p>✔ Condition: Certified</p>
         </div>
         <a href="https://wa.me/919371199379" class="btn" target="_blank">WhatsApp</a>
